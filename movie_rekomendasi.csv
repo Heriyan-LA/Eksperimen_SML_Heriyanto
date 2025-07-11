@@ -1,0 +1,21 @@
+title,genres,user_type,rank
+Chungking Express (Chung Hing sam lam) (1994),Drama Mystery Romance,existing_user_1,1
+"Double Life of Veronique, The (Double Vie de Véronique, La) (1991)",Drama Fantasy Romance,existing_user_1,2
+Europa (Zentropa) (1991),Drama Thriller,existing_user_1,3
+Winter Light (Nattvardsgästerna) (1963),Drama,existing_user_1,4
+Days of Heaven (1978),Drama,existing_user_1,5
+Black Narcissus (1947),Drama,existing_user_1,6
+Andrei Rublev (Andrey Rublyov) (1969),Drama War,existing_user_1,7
+"Harder They Come, The (1973)",Action Crime Drama,existing_user_1,8
+Black Orpheus (Orfeu Negro) (1959),Drama Romance,existing_user_1,9
+Persona (1966),Drama,existing_user_1,10
+"Adventures of Pluto Nash, The (2002)",Action Adventure Comedy Sci-Fi,new_user,1
+"Princess Blade, The (Shura Yukihime) (2001)",Action Sci-Fi,new_user,2
+Baby... Secret of the Lost Legend (1985),Adventure Sci-Fi,new_user,3
+Bumblebee (2018),Action Adventure Sci-Fi,new_user,4
+Stargate SG-1 Children of the Gods - Final Cut (2009),Adventure Sci-Fi Thriller,new_user,5
+Jurassic World (2015),Action Adventure Drama Sci-Fi Thriller,new_user,6
+Push (2009),Sci-Fi Thriller,new_user,7
+Clockstoppers (2002),Action Adventure Sci-Fi Thriller,new_user,8
+Jurassic Park (1993),Action Adventure Sci-Fi Thriller,new_user,9
+"Honey, We Shrunk Ourselves (1997)",Action Adventure Children Comedy Sci-Fi,new_user,10
