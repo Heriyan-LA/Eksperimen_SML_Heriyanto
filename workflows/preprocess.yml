@@ -1,23 +1,22 @@
-name: Run Preprocessing on Movie Data
+name: Preprocessing Data Otomatis
 
 on:
   push:
-    branches: [main]
     paths:
-      - 'automate_movie_recommendation.py'
-      - '.github/workflows/preprocess.yml'
-      - 'movie_rekomendasi.csv'
-  workflow_dispatch:  # memungkinkan manual trigger
+      - 'data.csv'
+      - 'automate_Heriyanto.py'
+      - '.github/workflows/preprocessing.yml'
+  workflow_dispatch:
 
 jobs:
   preprocess:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 🔄 Checkout repository
+    - name: 📥 Checkout repository
       uses: actions/checkout@v3
 
-    - name: 🐍 Setup Python
+    - name: 🐍 Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
@@ -27,6 +26,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: ⚙️ Run preprocessing
+    - name: 🚀 Jalankan Preprocessing
       run: |
-        python automate_movie_recommendation.py
+        python automate_Heriyanto.py
+
+    - name: 📤 Upload Hasil Preprocessing (data_processed.csv)
+      uses: actions/upload-artifact@v3
+      with:
+        name: data-processed
+        path: data_processed.csv
