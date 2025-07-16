@@ -5,7 +5,7 @@ on:
     paths:
       - 'data.csv'
       - 'automate_Heriyanto.py'
-      - '.github/workflows/preprocessing.yml'
+      - 'workflows/preprocessing.yml'
   workflow_dispatch:
 
 jobs:
