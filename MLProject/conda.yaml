@@ -1,4 +1,4 @@
-name: msml-logistic
+name: msml-distribusi
 channels:
   - defaults
 dependencies:
