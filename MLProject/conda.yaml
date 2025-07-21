@@ -1,4 +1,4 @@
-name: msml-distribusi
+name: ml-ci-env
 channels:
   - defaults
 dependencies:
